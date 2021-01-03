@@ -1,0 +1,39 @@
+swipe:
+  3:
+    left:
+      command: 'xdotool key alt+Left'
+    right:
+      command: 'xdotool key alt+Right'
+    up:
+      command: 'xdotool key ctrl+alt+Down'
+    down:
+      command: 'xdotool key ctrl+alt+Up'
+  4:
+    up:
+      command: 'xdotool key super+u'
+    down:
+      command: 'xdotool key super+d'
+
+pinch:
+  2:
+    in:
+    command: 'xdotool key super+m'
+    threshold: 0.1
+    out:
+     command: 'xdotool key super+m'
+     threshold: 0.1
+
+rotate:
+  3:
+    clockwise:
+      command: 'xdotool key XF86MonBrightnessUp' # Brightness up
+    counterclockwise:
+      command: 'xdotool key XF86MonBrightnessDown' # Brightness down
+
+threshold:
+  swipe: 1
+  pinch: 1
+
+interval:
+  swipe: 1
+  pinch: 1
